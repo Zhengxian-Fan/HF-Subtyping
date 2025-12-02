@@ -2,6 +2,9 @@
 
 This repository contains code to apply contrastive learning on Electronic Health Record (EHR) data and generate patient subtypes. The approach leverages a Transformer-based model fine-tuned using a contrastive loss on sequential EHR data. The code computes patient embeddings, clusters them using KMeans, and calculates the optimal k using prediction strength.
 
+**Related publication:** See our paper for details and evaluation results:  
+**[Identification of heart failure subtypes using transformer-based deep learning on longitudinal EHR data (eBioMedicine, The Lancet)](https://www.thelancet.com/journals/ebiom/article/PIIS2352-3964(25)00101-X/fulltext?rss=yes)**
+
 > **Note:** Due to data privacy restrictions, the original vocabulary and model files used in our research cannot be shared. In this repository, a Hugging Face BERT model is used as a placeholder. Please replace it with your own model and vocabulary if necessary.
 
 ## Overview
